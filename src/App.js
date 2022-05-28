@@ -1,8 +1,13 @@
+import TodoInsert from './components/TodoInsert';
+import TodoList from './components/TodoList';
+import TodoTemplate from './components/TodoTemplate';
+
 function App() {
   return (
-    <div className="App">
-      Todo App 만들기!
-    </div>
+    <TodoTemplate>
+      <TodoInsert />
+      <TodoList />
+    </TodoTemplate>
   );
 }
 
